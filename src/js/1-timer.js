@@ -90,19 +90,5 @@ function convertMs(ms) {
 }
 
 function addZero(value) {
-  if (value > 100) {
-    iziToast.error({
-      title: 'Error',
-      message: 'Please choose a more recent date',
-      position: 'topRight',
-    });
-    clearInterval(intervalId);
-    startButton.setAttribute('disabled', true);
-    startButton.style.color = '#989898';
-    startButton.style.background = '#CFCFCF';
-    return 99;
-  } else {
-    startButton.removeAttribute('style');
-    return value < 10 ? `0${value}` : value;
-  }
+  return value < 10 ? `0${value}` : value;
 }
