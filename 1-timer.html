@@ -6,19 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Page 2</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="iziToast.min.css">
   
   <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-ec808ebb.js">
-  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-30433bf8.css">
+  <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-651d7991.js">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-80d0dc0f.css">
+  <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-18da5f7d.css">
 </head>
 
 <body>
-  <section>
+  <section class="title">
     <a href="./index.html">Go to home</a>
     <h1>How much time is left</h1>
   </section>
-  <input type="text" id="datetime-picker" />
-  <button type="button" data-start>Start</button>
+  <input type="text" id="datetime-picker" class="timer-input" />
+  <button type="button" class="start-btn" data-start>Start</button>
 
   <div class="timer">
     <div class="field">
@@ -38,6 +44,7 @@
       <span class="label">Seconds</span>
     </div>
   </div>
+  <script src="iziToast.min.js" type="text/javascript"></script>
   
 </body>
 
