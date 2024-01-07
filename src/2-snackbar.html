@@ -6,22 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Page 3</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="iziToast.min.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-  <section>
+  <section class="title">
     <a href="./index.html">Go to home</a>
     <h1>Let's generate!</h1>
   </section>
 
   <form class="form">
-    <label>
+    <label class="form-lable">
       Delay (ms)
       <input type="number" name="delay" required />
     </label>
 
-    <fieldset>
+    <fieldset class="fielset">
       <legend>State</legend>
       <label>
         <input type="radio" name="state" value="fulfilled" required />
@@ -33,7 +37,7 @@
       </label>
     </fieldset>
 
-    <button type="submit">Create notification</button>
+    <button type="submit" class="snack-btn">Create notification</button>
   </form>
   <script type="module" src="./js/2-snackbar.js"></script>
 </body>

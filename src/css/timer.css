@@ -1,0 +1,62 @@
+.title {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.timer-input {
+  width: 272px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-bottom: 32px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.start-btn {
+  width: 75px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background: #4e75ff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.timer {
+  width: fit-content;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.value {
+  color: #2e2f42;
+
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 1.6px;
+}
+.label {
+  color: #2e2f42;
+
+  font-family: Montserrat;
+  font-size: 16px;
+
+  line-height: 24px;
+}

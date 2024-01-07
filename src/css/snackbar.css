@@ -1,0 +1,41 @@
+.form {
+  width: fit-content;
+}
+.form-lable {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.form-lable > input {
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+.fielset {
+  display: flex;
+  justify-content: space-around;
+  width: 360px;
+  height: 64px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.snack-btn {
+  width: 360px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
